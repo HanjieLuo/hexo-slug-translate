@@ -1,9 +1,31 @@
-var hexo = hexo != undefined ? hexo : {}
+var youdao = require('./lib/youdao');
+var util = require("hexo-util")
 
-// console.log("test...1", __dirname)
-hexo.on('generateAfter', function(post){
-    // console.log(this.model('Post').data);
-    // for (data in this.model('Post')){
-    //     console.log(data);
-    // }
-})
+function checkEnglishOnly(str) {
+    if (escape(str).indexOf("%u") < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+hexo.extend.filter.register('post_permalink', function(permalink) {
+    console.log("1:" + permalink);
+    var start = permalink.lastIndexOf("/") + 1;
+    var end = permalink.lastIndexOf(".html");
+
+    if (end == permalink.length - 5) {
+        title = permalink.slice(start, end);
+    } else {
+        title = permalink.slice(start);
+    }
+
+    if (!checkEnglishOnly(title)) {
+        title = youdao.translate(title);
+    }
+
+    new_permalink = permalink.slice(0, start) + util.slugize(title, {transform: 1}) + '.html';
+
+    console.log("2:" + new_permalink);
+    return new_permalink;
+});

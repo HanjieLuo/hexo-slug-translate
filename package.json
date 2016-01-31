@@ -1,6 +1,17 @@
-
 {
   "name": "hexo-slug-translate",
   "version": "0.0.1",
-  "main": "index"
+  "main": "index",
+  "dependencies": {
+    "hexo-util": "^0.5.1",
+    "sync-request": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForbesLindesay/sync-request.git"
+  },
+  "author": {
+    "name": "Hanjie Luo"
+  },
+  "license": "MIT"
 }
