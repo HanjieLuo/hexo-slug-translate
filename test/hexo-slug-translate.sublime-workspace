@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/luohanjie/Documents/Dropbox/Blogs/package.json",
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-slug-translate/index.js",
+			"settings":
+			{
+				"buffer_size": 556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hexo-slug-translate.sublime-project",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/luohanjie/Documents/Workspace/Web/Hexo/package.json",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"PAC",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/luohanjie/Documents/Workspace/Web/Hexo",
+		"/Users/luohanjie/Documents/Workspace/Web/Hexo/node_modules"
+	],
+	"file_history":
+	[
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/filter/new_post_path.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/hexo/render.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/hexo/source.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/models/post.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/processor/post.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-math/asset/math-jax.ejs",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/themes/next/_config.yml",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/markdown-it-footnote/index.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/themes/next/source/css/main.styl",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/scripts/footnote.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-renderer-marked/node_modules/marked/lib/marked.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/themes/next/layout/_scripts/third-party/mathjax.swig",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/themes/next/languages/zh-Hans.yml",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/_config.yml",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/console/list/page.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/models/page.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/generator/asset.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/generator/index.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/hexo/index.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/generator/post.js",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo/lib/plugins/generator/page.js",
+		"/Users/luohanjie/Documents/Workspace/Robotics/Scara/Codes/MyScara/bin/Debug/config.ini",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/db.json",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/package.json",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/source/_posts/markdown.md",
+		"/Users/luohanjie/Documents/Workspace/Robotics/Scara/Codes/Yang_Code/FourJointsRobot/src/ec_kinematics/src/MyScara.cpp",
+		"/Users/luohanjie/Documents/Dropbox/Blogs/source/_posts/服务器安装Hexo博客.md",
+		"/Users/luohanjie/Downloads/dropbox (1).py",
+		"/Users/luohanjie/Downloads/dropbox.py",
+		"/Users/luohanjie/Documents/Workspace/Robotics/Scara/Codes/Yang_Code/FourJointsRobot-composite_trajectory/config.ini",
+		"/Users/luohanjie/Documents/Workspace/Robotics/Scara/Codes/Yang_Code/FourJointsRobot/config.ini",
+		"/Users/luohanjie/Documents/Workspace/Robotics/Scara/Codes/Yang_Code/FourJointsRobot-composite_trajectory/src/ec_control_loop/src/ec_control_loop-component.cpp",
+		"/Users/luohanjie/Documents/Workspace/Vision/AntColonyMaching/Code/PCBTrace.py",
+		"/Users/luohanjie/Documents/Workspace/Vision/AntColonyMaching/Code/Ant.py",
+		"/Users/luohanjie/Documents/Workspace/Vision/AntColonyMaching/PCBTrace.py",
+		"/Users/luohanjie/Documents/Workspace/Vision/AntColonyMaching/Ant.py",
+		"/Users/luohanjie/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/luohanjie/Downloads/eigen-eigen-b30b87236a1b/cmake/FindEigen3.cmake",
+		"/Users/luohanjie/Documents/Workspace/Scara/Documents/Report/scara_report/SCARA.tex",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/TIM—输出比较（PwmOutput）/PWM_Output/User/PwmOutput/bsp_pwm_output.h",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/ADC—单通道（DMA）/User/main.c",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/TIM—输出比较（PwmOutput）/PWM_Output/User/PwmOutput/bsp_pwm_output.c",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/ADC—单通道（DMA）/User/adc/bsp_adc.h",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/ADC—单通道（DMA）/User/usart/bsp_usart1.h",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/ADC—单通道（DMA）/User/stm32f10x_conf.h",
+		"/Volumes/NO NAME/A盘（程序+教程+原理图+软件）/3-程序源码/2-裸机例程/ADC—单通道（DMA）/User/adc/bsp_adc.c",
+		"/Users/luohanjie/Documents/Dropbox/Documents/Notes/LocalData/SiteThemes/octopress/asset/js/octopress.js",
+		"/Applications/MWeb.app/Contents/Resources/playground.style",
+		"/Applications/MWeb.app/Contents/Resources/PreviewAsset/MathJax/MathJax.js",
+		"/Users/luohanjie/Documents/mathjax.js",
+		"/Applications/MWeb.app/Contents/Resources/PreviewAsset/MathJax/config/TeX-AMS-MML_HTMLorMML.js",
+		"/Users/luohanjie/Library/Containers/com.coderforart.MWeb/Data/Documents/MWeb/LocalData/PreviewCSS/sample-css.css",
+		"/Users/luohanjie/Downloads/eigen-eigen-b30b87236a1b/INSTALL"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/luohanjie/Documents/Dropbox/Blogs",
+			"/Users/luohanjie/Documents/Dropbox/Blogs/themes/next",
+			"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-renderer-markdown-it",
+			"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-renderer-markdown-it/node_modules",
+			"<project>",
+			"/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-renderer-markdown-it"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"key",
+			"));",
+			"meta",
+			"title",
+			"slug",
+			"title",
+			"Post",
+			"processPost",
+			"layout",
+			"type",
+			"processPost",
+			"slugize",
+			"parse",
+			"parseFilename",
+			"permalink",
+			"title",
+			"post",
+			"name",
+			"article-share",
+			"font-icon-version",
+			"jiathis",
+			"baidu",
+			"bdsharebuttonbox",
+			"icon",
+			"wrap",
+			"<p>",
+			"head",
+			"#{1",
+			"#{1,6}",
+			"heading",
+			"heading:",
+			"markdown",
+			"favicon",
+			" Tomorrow",
+			"disqus_shortname",
+			"sidebar：",
+			"language",
+			"scheme",
+			"locals.pages",
+			"layout",
+			"reroll_autostart",
+			"autostart",
+			"VirtualRun",
+			"InitTrajectory",
+			"match_threshold_pre_reflow",
+			"template",
+			"TeX",
+			"TeX-AMS-MML_HTMLorMML",
+			"TeX",
+			"equationNumbers",
+			"MathJax.Hub.Config"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/luohanjie/Documents/Dropbox/Blogs/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Material Theme/langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/luohanjie/Documents/Dropbox/Blogs/node_modules/hexo-slug-translate/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "hexo-slug-translate.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/luohanjie/Documents/Workspace/Web/Hexo/package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Material Theme/langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 182.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hexo-slug-translate.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

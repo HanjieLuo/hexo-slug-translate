@@ -1,3 +1,4 @@
+var baidu = require('./lib/baidu');
 var youdao = require('./lib/youdao');
 var util = require("hexo-util")
 
@@ -9,23 +10,41 @@ function checkEnglishOnly(str) {
     }
 }
 
-hexo.extend.filter.register('post_permalink', function(permalink) {
-    console.log("1:" + permalink);
-    var start = permalink.lastIndexOf("/") + 1;
-    var end = permalink.lastIndexOf(".html");
+hexo.extend.generator.register('post', function(locals) {
+    var permalink = '';
+    return locals.posts.map(function(post) {
+        permalink = post.slug.toLowerCase();
+        console.log("1:" + permalink);
 
-    if (end == permalink.length - 5) {
-        title = permalink.slice(start, end);
-    } else {
-        title = permalink.slice(start);
-    }
+        var start = permalink.lastIndexOf("/") + 1;
+        var end = permalink.lastIndexOf(".html");
 
-    if (!checkEnglishOnly(title)) {
-        title = youdao.translate(title);
-    }
+        if (end == permalink.length - 5) {
+            title = permalink.slice(start, end);
+        } else {
+            title = permalink.slice(start);
+        }
 
-    new_permalink = permalink.slice(0, start) + util.slugize(title, {transform: 1}) + '.html';
+        if (!checkEnglishOnly(title)) {
+            title = youdao.translate(title);
 
-    console.log("2:" + new_permalink);
-    return new_permalink;
+            if (!checkEnglishOnly(title)) {
+                title = baidu.translate(title);
+            }
+        }
+
+        permalink = permalink.slice(0, start) + util.slugize(title, {
+            transform: 1
+        }) + '.html';
+
+        post.slug = permalink;
+        console.log("2:" + permalink + "\n");
+
+        return {
+            path: post.path,
+            data: post,
+            layout: 'post'
+        };
+    });
 });
+
