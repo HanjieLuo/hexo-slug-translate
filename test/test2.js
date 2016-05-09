@@ -10,24 +10,24 @@ function checkEnglishOnly(str) {
     }
 }
 
-permalink = "/搭五十音図.html";
+permalink = "Tech/Server.html";
 // permalink = "/this is a test.html";
 
 console.log("1:" + permalink);
-var start = permalink.lastIndexOf("/") + 1;
-var end = permalink.lastIndexOf(".html");
+// var start = permalink.lastIndexOf("/") + 1;
+// var end = permalink.lastIndexOf(".html");
 
-if (end == permalink.length - 5) {
-    title = permalink.slice(start, end);
-} else {
-    title = permalink.slice(start);
-}
-
+// if (end == permalink.length - 5) {
+//     title = permalink.slice(start, end);
+// } else {
+//     title = permalink.slice(start);
+// }
+title = permalink;
 if (!checkEnglishOnly(title)) {
     title = youdao.translate(title);
 }
 
-new_permalink = permalink.slice(0, start) + util.slugize(title) + '.html';
+// new_permalink = permalink.slice(0, start) + util.slugize(title) + '.html';
 
-console.log("2:" + new_permalink);
+console.log("2:" + util.slugize(title));
 // return new_permalink;

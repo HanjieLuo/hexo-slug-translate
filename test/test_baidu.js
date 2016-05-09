@@ -11,7 +11,7 @@ function checkEnglishOnly(str) {
     }
 }
 
-permalink = "/测试nodejs,测试node.js 软件作用, 配置abc.html";
+permalink = "/Tech/Server.html";
 // permalink = "/this is a test.html";
 
 console.log("1:" + permalink);
